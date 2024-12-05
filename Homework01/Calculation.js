@@ -2,7 +2,7 @@ let pricePerOne = 119.95;
 console.log("Price per one unit is $:" + pricePerOne);
 
 let NumberOfPhones = 30;
-console.log("Number of phones: " + NumberOfPhones);
+console.log("Number of phones: " + numberOfPhones);
 
 let totalAmount = pricePerOne * NumberOfPhones;
 console.log("Total Amount in $ without tax: " + totalAmount);
