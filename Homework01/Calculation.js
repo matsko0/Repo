@@ -10,7 +10,7 @@ console.log("Total Amount in $ without tax: " + totalAmount);
 let taxRate = 0.05;
 console.log("Tax rate is 5%");
 
-let taxPerPhone = pricePerOne / taxRate;
+let taxPerPhone = pricePerOne * taxRate;
 console.log("Tax per one phone: " + taxPerPhone);  // should result 23,99 (doesnt show the comma symbol between.)
 
 let taxAmount = totalAmount * taxRate;
