@@ -29,6 +29,6 @@ if (isNaN(year)) {
     let zodiacCalc = (year - 4) %12;
     let zodiac = zodiacSigns[zodiacCalc]
 
-    console.log("Your Chinese sodiac sign is number:" + zodiac);
+    console.log("Your Chinese zodiac sign is number:" + zodiac);
     
 }
