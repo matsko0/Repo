@@ -1,10 +1,10 @@
 let pricePerOne = 119.95;
 console.log("Price per one unit is $:" + pricePerOne);
 
-let NumberOfPhones = 30;
+let numberOfPhones = 30;
 console.log("Number of phones: " + numberOfPhones);
 
-let totalAmount = pricePerOne * NumberOfPhones;
+let totalAmount = pricePerOne * numberOfPhones;
 console.log("Total Amount in $ without tax: " + totalAmount);
 
 let taxRate = 0.05;
